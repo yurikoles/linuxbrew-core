@@ -8,6 +8,7 @@ class Instead < Formula
     sha256 "e447bee8716c692d07e6d58b337639a64334dfa921326810c5ae0d64b14fe72e" => :catalina
     sha256 "128a389655c4361f48dd8ee81344682a3d4433485cf91569a71961bed0885e06" => :mojave
     sha256 "e9029b89e6133d0f233a679a684e64d0195b283aabb6c55640f8a95ed1297f50" => :high_sierra
+    sha256 "0a6913b90f9c3d01b83d37cc3f467470c5e9982c5bffd9a7076ab6287aa44157" => :x86_64_linux
   end
 
   depends_on "cmake" => :build
