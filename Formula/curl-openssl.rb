@@ -20,7 +20,7 @@ class CurlOpenssl < Formula
   end
 
   if OS.mac?
-    keg_only :provided_by_macos
+    keg_only :shadowed_by_macos, "macOS provides curl"
   else
     keg_only "it conflicts with curl"
   end
