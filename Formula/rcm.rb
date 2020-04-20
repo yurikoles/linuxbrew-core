@@ -9,6 +9,7 @@ class Rcm < Formula
     sha256 "3fdc7266d9faa6015ef560254f036cc355445ee12861cb17a1c0bf5cc218b368" => :catalina
     sha256 "3fdc7266d9faa6015ef560254f036cc355445ee12861cb17a1c0bf5cc218b368" => :mojave
     sha256 "3fdc7266d9faa6015ef560254f036cc355445ee12861cb17a1c0bf5cc218b368" => :high_sierra
+    sha256 "2817bdd9ee36f5f321ac6b82e4d040d6e9bae08d8e7212b15555a31b432010cc" => :x86_64_linux
   end
 
   def install
