@@ -9,6 +9,7 @@ class Opensaml < Formula
     sha256 "fb766a10e4471cb65da1e9833ab752e360af38a598f50fe4190881950abed391" => :catalina
     sha256 "06438e82b7723985c2089d8ab2198dc8ac7bfc0cf3e86c3b78c0bea8586ecb41" => :mojave
     sha256 "55e58f4e0e0a077ea5dc4a936e759a9f5e710fab05b2f9f6efb4b01144130d3a" => :high_sierra
+    sha256 "d06f173edbff0f73139c8838576435b0958adb43aed11d89256993131561b8d7" => :x86_64_linux
   end
 
   depends_on "pkg-config" => :build
