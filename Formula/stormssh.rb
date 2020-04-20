@@ -10,6 +10,7 @@ class Stormssh < Formula
     sha256 "ea320fc79f2b33f81f123833bcd77212cca1a2fb93fd4094ddc4b175f31fdaed" => :catalina
     sha256 "0517af91bef9ee09a89d36105786eae1068aa66e81988636bae1c2e279660156" => :mojave
     sha256 "e69de64df1e5e1285fbd26ac1651d2ab1ad964237531151de7b3e05dbd23161e" => :high_sierra
+    sha256 "86b4379c69a0d899bdd932f59b9ee774fe9070d4637e45fda2036e86ac08f138" => :x86_64_linux
   end
 
   depends_on "python@3.8"
