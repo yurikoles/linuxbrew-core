@@ -9,6 +9,7 @@ class Nift < Formula
     sha256 "e7e7aa6af70b62b847d620080276b4b835c2b70f8ffed91a2af6a2dd7f01a62c" => :catalina
     sha256 "07614528c96c910169477165a83dd3d8fb5db747df3918897c5eb9377347e16d" => :mojave
     sha256 "8a4fca1c254e90bfb5ff499e5c7d333a79049a29e00b09140219246e458f735a" => :high_sierra
+    sha256 "c6210b158ebe2f9c4f2afaab196bccaa16db58a7a5edf7cb3ceb16ac4f9a4e8f" => :x86_64_linux
   end
 
   depends_on "luajit" unless OS.mac?
