@@ -14,6 +14,7 @@ class Codemod < Formula
     sha256 "3b32fef1fef317a4544225f6de58e0c1e970de6deb10258fe2d3f937116d5468" => :catalina
     sha256 "da2eee278c0136d201d2c59db1876f90996600c8a00a0c2434742015846d7457" => :mojave
     sha256 "31f1ef7e3e6867ef52f0922c807762363b3a4f1c520b0de5bbd448282f95a5e5" => :high_sierra
+    sha256 "956b526604a6234390ad5c0f0fdb9c9d8a393b66d6f5b124543868d0c44d6a9e" => :x86_64_linux
   end
 
   depends_on "python@3.8"
