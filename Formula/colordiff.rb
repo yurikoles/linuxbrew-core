@@ -10,6 +10,7 @@ class Colordiff < Formula
     sha256 "f0433560a0417e350a57ad24a80d277cb3cc2665046a10d8db630ef432529603" => :catalina
     sha256 "f0433560a0417e350a57ad24a80d277cb3cc2665046a10d8db630ef432529603" => :mojave
     sha256 "f0433560a0417e350a57ad24a80d277cb3cc2665046a10d8db630ef432529603" => :high_sierra
+    sha256 "61474e3b705ddfcc3f3056f0fa017f7f53e3fa26c30c7c316bee544d6c589314" => :x86_64_linux
   end
 
   depends_on "coreutils" => :build # GNU install
