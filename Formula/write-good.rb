@@ -11,6 +11,7 @@ class WriteGood < Formula
     sha256 "e0a5d6df3a160e8c24ef47754fe05f88e369fc7140c45af5f6b1228beb52de0d" => :catalina
     sha256 "35c6923bda9539fa5704c7f9255b6590029503dcdf7b4d29090dc62a38aa1452" => :mojave
     sha256 "7b0bb14228cf6054bfad6d22a9df86e67b893bf49682a3706606e3fab1f7f40a" => :high_sierra
+    sha256 "bf02d88c0dd1baff29a1fb3cd8dd3ae9172a031369cee05b33edd960a2387a24" => :x86_64_linux
   end
 
   depends_on "node"
